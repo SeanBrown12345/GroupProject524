@@ -150,7 +150,7 @@ features = [
 python = ["3.10", "3.11", "3.12", "3.13"]
 
 [tool.hatch.envs.test.scripts]
-run = "pytest {args:--cov=524groupproject --cov-report=term-missing --cov-report=xml}"
+run = "pytest {args:--cov=FileJanitor --cov-report=term-missing --cov-report=xml}"
 
 #--------------- Build and preview your documentation ---------------#
 
@@ -167,7 +167,7 @@ features = [
 # hatch run docs:serve will serve them 'live' on your computer locally
 [tool.hatch.envs.docs.scripts]
 build = ["sphinx-build {args:-W -b html docs docs/_build}"]
-serve = ["sphinx-autobuild docs --watch src/524groupproject {args:-b html docs/_build/serve}"]
+serve = ["sphinx-autobuild docs --watch src/FileJanitor {args:-b html docs/_build/serve}"]
 
 
 

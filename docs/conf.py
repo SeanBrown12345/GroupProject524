@@ -1,5 +1,5 @@
 #
-# 524GroupProject documentation build configuration file
+# FileJanitor documentation build configuration file
 #
 import os
 import sys
@@ -14,7 +14,7 @@ current_year = datetime.now().year
 
 # -- General project information -----------------------------
 # General information about the project.
-project = "524GroupProject"
+project = "FileJanitor"
 copyright = "Copyright © 2026 Sean Brown, Sam Lokanc, "
 html_show_sphinx = False
 
@@ -22,7 +22,7 @@ html_show_sphinx = False
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 try:
-    version = importlib.metadata.version("524groupproject")
+    version = importlib.metadata.version("FileJanitor")
 except importlib.metadata.PackageNotFoundError:
     version = "0.0.0"
 
@@ -133,7 +133,7 @@ html_theme = "pydata_sphinx_theme"
 # html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "524GroupProject_doc"
+htmlhelp_basename = "FileJanitor_doc"
 
 
 intersphinx_mapping = {

@@ -1,4 +1,4 @@
-def index_files(path: str, order: list[str], unlisted: str = "remove"):
+def index_files(path: str, order: list[str], unlisted: str = "hide"):
     """
     Sort and order files in a directory by renaming them with numerical prefixes 
     or custom sequence identifiers according to a user-defined order.
@@ -87,5 +87,5 @@ def index_files(path: str, order: list[str], unlisted: str = "remove"):
     - Duplicate filenames in `order` raise ValueError before any modifications
     - Original file extensions are always preserved
     - Hidden files (starting with .) are ignored unless explicitly listed in `order`
-    
+
        """

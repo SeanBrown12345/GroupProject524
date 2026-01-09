@@ -23,18 +23,7 @@ FileJanitor provides a set of utility functions to automate common-file system h
 
 ## Features
 
-### Function 1: Timestamp files
-
-Adds a timestamp to each file name in a folder. 
-•	The timestamp is included directly in the file name.
-•	The timestamp is added as a prefix.
-•	It works on all files in the specified directory.
-
-```bash
-report.pdf → 2023-10-14_09-32-11_report.pdf
-```
-
-### Function 2: Pattern Replacement in File Names
+### Function 1: Pattern Replacement in File Names
 Replaces the input pattern in file names with a new pattern or character. This function will:
 •	Support replacing characters or strings (_ -> &)
 •	Capitalize the first word of the file name.
@@ -43,7 +32,7 @@ Replaces the input pattern in file names with a new pattern or character. This f
 ```bash
 file_janitors.txt → File & janitors.txt
 ```
-### Function 3: File name standardization
+### Function 2: File name standardization
 This function standardizes file names according to consistent formatting rules. This can be helpful when dealing with large collections of inconsistently named files.
 •	Replaces spaces and invalid characters with underscores (_).
 •	Converts dashes (-)  and spaces to underscores (_).
@@ -54,7 +43,7 @@ This function standardizes file names according to consistent formatting rules. 
 ___Final-csv.csv → FINAL_CSV.csv
 other 03-file.csv → OTHER_03_FILE.csv
 ```
-### Function 4. Indexing files
+### Function 3. Indexing files
 This function orders the files in each folder according to a defined order.
 
 Consider the following folder:
@@ -85,7 +74,7 @@ my_thesis_folder/
 └── conclusions.pdf
 ```
 
-### Function 5. Flattening Directories
+### Function 4. Flattening Directories
 
 
 This function will move all files from nested subfolders into a single target directory. This is useful in case someone wants all files at the same directory level. The folder structure is ignored during flattening.

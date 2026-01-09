@@ -58,15 +58,14 @@ representative at an online or offline event.
 
 ## Enforcement
 
-[//]: # (TODO: You need to choose whom and how to contact them.)
-
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-\[INSERT CONTACT METHOD\].
-All complaints will be reviewed and investigated promptly and fairly.
+reported to the community leaders responsible for enforcement by contacting:
+- Sean Brown: [GitHub](https://github.com/SeanBrown12345)
+- Sam Lokanc: [GitHub](https://github.com/SamLokanc)
+- Rabin Duran: [GitHub](https://github.com/rabin0208)
+- Luis Alonso Alvarez: [GitHub](https://github.com/luisalonso8)
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+All complaints will be reviewed and investigated promptly and fairly.
 
 ## Enforcement Guidelines
 
